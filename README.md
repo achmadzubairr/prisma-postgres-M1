@@ -67,3 +67,21 @@ just install this in next container
 ```bash
 npm install ts-node --save-dev
 ```
+```bash
+install npm install @prisma/client prisma@latest
+```
+```bash
+npm install typescript@latest
+```
+
+update node.js # tdk bisa
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt-get update
+apt-get install -y nodejs
+node -v
+```
+```bash
+docker restart test-next
+node -v
+```
