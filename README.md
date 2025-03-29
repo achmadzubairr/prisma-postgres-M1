@@ -52,3 +52,14 @@ Steps to inspect on PgAdmin:
    - Maintenance database: `postgres`
    - Username: `postgres`
    - Password: `postgres`
+
+make sure postgres and next have a same networks
+add on next service
+      networks:
+         app-tier
+
+if you see this error : Error: Command failed with exit code 1: ts-node --eval "
+// @ts-ignore
+
+just install this in next container
+npm install ts-node --save-dev
